@@ -7,5 +7,10 @@ namespace VTM_Client_AIF22
         IView View { set; }
         IController Controller { set; }
 
+        void DatenSenden(bool out1, bool out2);
+
+        void DatenEmpfangen(bool in1, bool in2);
+
     }
+
 }
